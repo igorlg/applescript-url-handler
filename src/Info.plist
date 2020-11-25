@@ -5,17 +5,17 @@
 	<key>CFBundleAllowMixedLocalizations</key>
 	<true/>
 	<key>CFBundleDevelopmentRegion</key>
-	<string>English</string>
+	<string>en</string>
 	<key>CFBundleExecutable</key>
 	<string>applet</string>
 	<key>CFBundleIconFile</key>
 	<string>applet</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.apple.ScriptEditor.id.ChimeURL</string>
+	<string>com.apple.ScriptEditor.id.UrlToAppHandler</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>ChimeURL</string>
+	<string>UrlToAppHandler</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
@@ -41,8 +41,6 @@
 	<string>This script needs access to your contacts to run.</string>
 	<key>NSHomeKitUsageDescription</key>
 	<string>This script needs access to your HomeKit Home to run.</string>
-	<key>NSHumanReadableCopyright</key>
-	<string>2020 Igor Gentil &lt;igor.lg@gmail.com&gt;</string>
 	<key>NSMicrophoneUsageDescription</key>
 	<string>This script needs access to your microphone to run.</string>
 	<key>NSPhotoLibraryUsageDescription</key>
@@ -53,26 +51,24 @@
 	<string>This script needs access to Siri to run.</string>
 	<key>NSSystemAdministrationUsageDescription</key>
 	<string>This script needs access to administer this system to run.</string>
-	<key>OSAScriptingDefinition</key>
-	<string>Open Amazon Chime URLs in native application</string>
 	<key>WindowState</key>
 	<dict>
 		<key>bundleDividerCollapsed</key>
-		<false/>
+		<true/>
 		<key>bundlePositionOfDivider</key>
-		<real>1556.5</real>
+		<real>0.0</real>
 		<key>dividerCollapsed</key>
 		<false/>
 		<key>eventLogLevel</key>
-		<integer>1</integer>
+		<integer>2</integer>
 		<key>name</key>
 		<string>ScriptWindowState</string>
 		<key>positionOfDivider</key>
-		<real>615</real>
+		<real>706</real>
 		<key>savedFrame</key>
-		<string>196 347 1822 800 0 0 3008 1669 </string>
+		<string>762 516 1253 957 0 0 3008 1669 </string>
 		<key>selectedTab</key>
-		<string>log</string>
+		<string>description</string>
 	</dict>
 </dict>
 </plist>
